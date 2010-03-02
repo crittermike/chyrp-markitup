@@ -1,6 +1,6 @@
 name: MarkItUp Markdown
-url: http://mikethecoder.com
-version: 0.1
+url: http://github.com/mikecrittenden/chyrp-markitup 
+version: 0.2
 description: Adds MarkItUp (a markdown editor) to feathers.
 author:
   name: Mike Crittenden
@@ -8,6 +8,4 @@ author:
 depends:
   - markdown
 confirm: Are you sure you want to get rid of MarkItUp awesomeness?
-
-# 0.1: Initial Release
 
