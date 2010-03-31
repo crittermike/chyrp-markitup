@@ -14,7 +14,7 @@ MarkItUp is a WYSIWYM (what you see is what you MEAN) editor that can handle mul
 What does this module do?
 --------------------------
 
-This module implements the Markdown set of MarkItUp and as such relies on the Markdown Chryp module. It automatically attaches itself to textareas on the add/edit post/page forms.
+This module implements the Markdown set of MarkItUp and as such relies on the Markdown Chryp module (which comes bundled with Chyrp). It automatically attaches itself to textareas on the add/edit forms.
 
 It's a really great companion to Chyrp's Markdown module.
 
