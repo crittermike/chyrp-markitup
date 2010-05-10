@@ -22,5 +22,5 @@ How do I install it?
 ----------------------
 
 - Move the top "markitup" folder into Chyrp's modules directory.
-- Go to yoursite.com/admin -> Extend to enable the module.
+- Go to yoursite.com/admin &rarr; Extend to enable the module.
 - Add or edit a post and witness the beauty.
