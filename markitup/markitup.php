@@ -11,20 +11,13 @@ class MarkItUp extends Modules {
 
         // Is a post or page being edited? If not, end function now.
         $action = isset(Route::current()->action) ? Route::current()->action : 'write_post';
-
-        $wysiwyg_actions = array(
-            'write_post',
-            'edit_post',
-            'write_page',
-            'edit_page'
-         );
-
+        $wysiwyg_actions = array('write_post', 'edit_post', 'write_page', 'edit_page');
         if (!in_array($action, $wysiwyg_actions)) {
           return;
         }
 
-            $config = Config::current();
-            $path = $config->chyrp_url.'/modules/markitup/';
+        $config = Config::current();
+        $path = $config->chyrp_url.'/modules/markitup/';
 
         ?>
 
